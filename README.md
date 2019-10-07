@@ -53,3 +53,9 @@ $ sudo service nhapometro start
 $ sudo service nhapometro status
 ```
 
+
+# Disclaimer
+
+All software and hardware by Juan Ramón Sixto Anello.
+
+Only logrotate and systemd service by Alexandre Espinosa Menor.
