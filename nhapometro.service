@@ -1,0 +1,16 @@
+[Unit]
+Description=Nhapometro
+
+[Service]
+User=root
+Type=simple
+WorkingDirectory=/home/aespinosa/lixo/nhapometro/nhapometro
+ExecStart=/bin/sh -c "python /home/aespinosa/lixo/nhapometro/nhapometro/nhapometro.py"
+StandardOutput=file:/var/log/nhapometro.log
+StandardError=file:/var/log/nhapometro.log
+Restart=always
+RestartSec=5
+Nice=19
+
+[Install]
+WantedBy=multi-user.target
