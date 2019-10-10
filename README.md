@@ -1,6 +1,6 @@
 # nhapometro
 
-by Juan Ramón Sixto Anello
+by Juan Ramón Sixto Anello (https://github.com/jotasixto/)
 
 ## Requirements
 
